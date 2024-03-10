@@ -121,7 +121,7 @@ function Card() {
                   <p className="md:text-2xl text-xl">
                     {new Date(cityData.sys.sunrise * 1000)
                       .toLocaleTimeString("en-IN")
-                      .slice(0, 4)}
+                      .slice(0, 5)}
                     am
                   </p>
                 </div>
@@ -137,7 +137,7 @@ function Card() {
                     {" "}
                     {new Date(cityData.sys.sunset * 1000)
                       .toLocaleTimeString("en-IN")
-                      .slice(0, 4)}
+                      .slice(0, 5)}
                     pm
                   </p>
                 </div>
